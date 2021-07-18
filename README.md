@@ -40,6 +40,6 @@ After the program is finished, there will be six images in the `target_path` fol
 
 Besides, you can also use L0-smooth (from the paper: Image Smoothing via $L_0$ Gradient Minimization) before image segmentation, which sometimes will help with the segmentation quality. With the following command, L0-smooth will be added. 
 ```python
-python ECCG.py --image $path_to_image --target_path $path_to_results --with_L0
+python main.py --image $path_to_image --target_path $path_to_results --with_L0
 ```
 As we can see in the results, our proposed methods have significantly improve the performance of CycleGAN, especially in the elements apart from the main animal.
